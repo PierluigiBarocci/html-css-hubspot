@@ -76,10 +76,12 @@ header:after {
 }
 /* end styling header */
 
+/* styling showcase-1 */
 .showcase-1 {
     background: linear-gradient(to top right, #fef8f0, #fff3ee, #fff1ee);
     position: relative;
     box-shadow: inset 0 11px 8px -10px rgba(51,71,91,0.12);
+    border-bottom: 3px solid #33475b;
 }
 .background_photo {
     background-image: url(images/background.png);
@@ -92,7 +94,7 @@ header:after {
 .princip-title {
     width: 40%;
     text-align: left;
-    padding: 80px 0 220px 0;
+    padding: 80px 0 177px 0;
     position: relative;
 }
 .princip-title h1 {
@@ -107,5 +109,112 @@ header:after {
     font-size: 12px;
     font-weight: 500;
 }
-
 /* end styling Showcase-1 */
+
+/* styling showcase-2 */
+.showcase-2 {
+    background: #f5f8fa;
+}
+
+
+.container_60 {
+    width: 62vw;
+    margin: auto;
+}
+
+.blocco_primo {
+    text-align: center;
+    padding: 100px 0 30px 0;
+    width: 82%;
+    margin: auto;
+}
+
+.blocco_primo img {
+    max-width: 260px;
+}
+
+.blocco_primo p {
+    padding: 20px 0;
+}
+
+
+.blocco_secondo {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 11px #eaf0f6;
+    transition: 0.3s;
+    border-radius: 4px;
+
+}
+.blocco_secondo:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.blocco_secondo:hover {
+    transition: 0.3s;
+    transform: scale(1.014);
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+}
+.secondo-left {
+    float: left;
+    width: 40%;
+    padding: 35px 50px 40px 90px;
+}
+.secondo-left img {
+    max-height: 175px;
+    padding-bottom: 20px;
+}
+.secondo-left .cta-button {
+    padding: 12px 24px;
+    font-size: 14px;
+}
+.secondo-right {
+    float: right;
+    width: 60%;
+    text-align: left;
+    padding: 35px 100px 40px 20px;
+}
+.secondo-right h2 {
+    font-weight: 500;
+}
+.secondo-testo p {
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.secondo-popular {
+    padding: 18px 0;
+}
+.secondo-popular hr {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    border: 0.5px solid #e0e6ed;
+}
+.secondo-popular h3 {
+    display: inline-block;
+    font-size: 12px;
+    padding-right: 10px;
+}
+.secondo-popular::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.secondo-icone i{
+    color: #ff7a59;
+    padding-right: 8px;
+}
+.scritte_icone {
+    font-size: 12px;
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+
+
+/* end styling Showcase-2 */
