@@ -670,3 +670,34 @@ footer {
     padding-top: 13px;
 }
 /* end styling button chat */
+.left {
+    position: relative;
+}
+.menu-scorrimento {
+    position: absolute;
+    background-color: white;
+    top: 90%;
+    left: 0%;
+    padding: 10px 0;
+    border: 1px solid #cbd6e2;
+    border-radius: 3px;
+    box-shadow: 0 1px 24px rgba(45,62,80,0.12);
+    visibility:hidden;
+}
+
+.first:hover .menu-scorrimento {
+    visibility: visible;
+}
+.menu-scorrimento ul {
+    list-style: none;
+}
+
+.menu-scorrimento li a{
+    width: 100%;
+    padding: 5px 38px 5px 15px;
+}
+
+.menu-scorrimento li a:hover{
+    background-color: #e5f5f8;
+}
+/* end menu a scorrimento */
