@@ -357,10 +357,58 @@ header:after {
 }
 /* end styling Showcase-3 */
 
+/* Styling Showcase-4 */
+
+/* end styling Showcase-4 */
+.showcase-4 {
+    background-color: white;
+    padding: 100px 0 50px 0;
+}
+.showcase-4::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.showcase-4 .testo {
+    float: left;
+    width: 35%;
+}
+
+.immagini-sponsor {
+    float: right;
+    width: 65%;
+    text-align: right;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+.showcase-4 .testo h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.showcase-4 .testo p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 25px 0;
+}
+#hundread {
+    font-size: 20px;
+    font-weight: 500;
+}
+.sponsor img {
+    max-width: 145px;
+    padding: 20px;
+    vertical-align: middle;
+}
+.immagini-sponsor::after {
+    content: '';
+    display: table;
+    clear: both;
+}
 /* Styling Showcase-5 */
 .showcase-5 {
     background-color: white;
-    padding: 150px 0 150px 0;
+    padding: 50px 0 100px 0;
 }
 
 .foto_persona img {
@@ -393,4 +441,8 @@ header:after {
     font-size: 12px;
     font-weight: 300;
 }
-/* end styling Showcase-3 */
+/* end styling Showcase-5 */
+
+/* styling footer */
+
+/* emd styling footer */
