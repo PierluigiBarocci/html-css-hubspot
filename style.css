@@ -408,7 +408,7 @@ header:after {
 /* Styling Showcase-5 */
 .showcase-5 {
     background-color: white;
-    padding: 50px 0 100px 0;
+    padding: 60px 0 50px 0;
 }
 
 .foto_persona img {
@@ -420,7 +420,7 @@ header:after {
     float: left;
     width: 45%;
     text-align: left;
-    padding: 80px 0 177px 0;
+    padding: 80px 0 130px 0;
 }
 .showcase-5::after {
     content: '';
@@ -444,5 +444,111 @@ header:after {
 /* end styling Showcase-5 */
 
 /* styling footer */
+footer {
+    background-color: #33475b;
+    padding-top: 100px;
+}
 
+.Colonna ul {
+    list-style: none;
+}
+.Colonna li {
+    padding: 8px 0;
+}
+
+.Colonna li a{
+    text-decoration: none;
+    color: #cbd6e2;
+    padding: 10px;
+}
+
+.Colonna li a:hover {
+    color: #7fd1de;
+}
+.Colonna h3 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.Colonna {
+    float: left;
+    width: 25%;
+}
+.footer-top::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#arrow {
+    color: white;
+    font-size: 12px;
+}
+#white-button {
+    background-color: #f5f8fa;
+    color: #33475b;
+    font-size: 12px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 0px;
+    width: 70%;
+    margin: 10px 0 10px 10px;
+}
+#white-button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.ult_soci_button {
+    padding-top: 20px;
+}
+.ult_soci_button i {
+    font-size: 19px;
+    padding-right: 10px;
+}
+
+.footer-center a{
+    text-decoration: none;
+    color: #cbd6e2;
+    padding: 10px 18px;
+}
+.footer-center a:hover {
+    color: #7fd1de;
+}
+.footer-center {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #cbd6e2;
+}
+
+.footer-bottom {
+    padding: 40px 0;
+}
+.footer-bottom .left {
+    float: left;
+    width: 20%;
+}
+.footer-bottom .right {
+    float: right;
+    width: 80%;
+    text-align: right;
+}
+.footer-bottom::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.footer-bottom .right a{
+    text-decoration: none;
+    color: #cbd6e2;
+    padding: 10px 18px;
+}
+.footer-bottom .right a:hover {
+    color: #7fd1de;
+}
+.footer-bottom .left p {
+    color: #cbd6e2;
+    font-size: 12px;
+}
 /* emd styling footer */
