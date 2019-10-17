@@ -356,3 +356,41 @@ header:after {
     border-right: 1px solid white;
 }
 /* end styling Showcase-3 */
+
+/* Styling Showcase-5 */
+.showcase-5 {
+    background-color: white;
+    padding: 150px 0 150px 0;
+}
+
+.foto_persona img {
+    width: 60%;
+    max-width: 350px;
+    float: right;
+}
+.showcase-5 .testo {
+    float: left;
+    width: 45%;
+    text-align: left;
+    padding: 80px 0 177px 0;
+}
+.showcase-5::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.showcase-5 .testo h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.showcase-5 .testo p {
+    padding: 30px 0;
+}
+
+#tiny {
+    font-size: 12px;
+    font-weight: 300;
+}
+/* end styling Showcase-3 */
