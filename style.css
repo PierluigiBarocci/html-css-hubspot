@@ -11,7 +11,9 @@ body {
     color: #33475b;
 
 }
-
+main {
+    margin-top: 73.5px;
+}
 .container {
     width: 70vw;
     margin: auto;
@@ -552,3 +554,90 @@ footer {
     font-size: 12px;
 }
 /* emd styling footer */
+
+/* Styling Fixed-top */
+#fixed-top {
+    background-color: #f5f8fa;
+    border-bottom: 1px solid #cbd6e2;
+    position: fixed;
+    top: 0;
+    height: 73.5px;
+    width: 100%;
+    z-index: 30;
+}
+#fixed-top::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#fixed-top .left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+#fixed-top a{
+    float: left;
+    text-decoration: none;
+    color: #33475b;
+}
+.mini {
+    display: inline-block;
+    padding: 23.5px 10px 23.5px 0;
+    font-weight: 400;
+}
+#fix-arrow {
+    color: #7c98b6;
+    font-size: 13px;
+    padding-right: 10px;
+}
+.second .mini{
+    padding: 0 0 0 20px;
+    margin-top: 23.5px;
+    border-left: 2px solid rgb(203, 214, 226);
+}
+#fixed-top .right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.ultimi-fix {
+    display: inline-block;
+    padding: 23.5px 0px 23.5px 10px;
+    font-weight: 400;
+}
+
+.ultimi-fix i {
+    color: #7c98b6;
+}
+.ultimi-fix i:hover {
+    cursor: pointer;
+}
+#but-fix-1 {
+    background-color:rgb(255, 250, 249);
+    border: 1px solid rgb(255, 122, 89);
+    color: rgb(255, 122, 89);
+    border-radius: 3px;
+    padding: 8px 16px;
+    transition: 0.3s;
+    margin-left: 20px;
+}
+#but-fix-2 {
+    background-color: #ff7a59;
+    padding: 8px 16px;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: 0.3s;
+}
+
+.ultimi-fix button:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+    cursor: pointer;
+}
+/* end styling fixed-top */
