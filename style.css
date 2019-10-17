@@ -114,6 +114,7 @@ header:after {
 /* styling showcase-2 */
 .showcase-2 {
     background: #f5f8fa;
+    padding-bottom: 100px;
 }
 
 
@@ -286,3 +287,72 @@ header:after {
     box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
 }
 /* end styling Showcase-2 */
+
+/* Styling Showcase-3 */
+.showcase-3 {
+    background: linear-gradient(45deg, #00a4bd, #00bda5);
+    color: white;
+    text-align: center;
+    padding: 150px 0 150px 0;
+}
+.showcase-3::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+#immagini-griglia {
+    width: 100%;
+}
+#testo_white {
+    width: 65%;
+    margin: auto;
+}
+#testo_white h1 {
+    line-height: 1.2;
+}
+#testo_white p {
+    padding: 20px 0 100px 0;
+}
+
+#immagini-griglia img{
+    max-height: 33px;
+}
+#different {
+    margin-top: 10px;
+}
+.scritte-cicce {
+    font-size: 40px;
+    font-weight: 700;
+}
+.plus {
+    vertical-align: super;
+}
+.immagini-top::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.immagini-bottom::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.fotoPiccina {
+    float: left;
+    width: 25%;
+    padding: 25px 0;
+}
+
+.immagini-top {
+    border-bottom: 1px solid white;
+}
+
+.immagini-top .fotoPiccina:not(.senza) {
+    border-right: 1px solid white;
+}
+.immagini-bottom .fotoPiccina:not(.senza) {
+    border-right: 1px solid white;
+}
+/* end styling Showcase-3 */
