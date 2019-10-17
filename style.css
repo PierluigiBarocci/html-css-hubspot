@@ -235,14 +235,14 @@ header:after {
     box-shadow: 0 0 11px #eaf0f6;
     transition: 0.3s;
     border-radius: 4px;
-    padding: 43px;
+    padding: 42px;
 }
 .colonna.seconda {
-    margin: 0 40px;
+    margin: 0 43px;
 }
 
 .blocco_terzo img {
-    max-height: 175px;
+    max-height: 155px;
 }
 
 .blocco_terzo p {
@@ -279,5 +279,10 @@ header:after {
 .colonna .bot {
     text-align: center;
     padding-top: 20px
+}
+.colonna:hover {
+    transition: 0.3s;
+    transform: scale(1.014);
+    box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
 }
 /* end styling Showcase-2 */
